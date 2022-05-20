@@ -194,6 +194,10 @@ function validatePhone() {
   }
 }
 
+$(function(){
+  $("#cal-phone").mask("+7(999) 999-9999");
+});
+
 function validateEmail() {
   const inputEmail = document.querySelector('[data-validate-field="mail"]');
   const parent = inputEmail.closest('label');

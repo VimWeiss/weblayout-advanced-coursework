@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/plugins/tippy.css">
   <link rel="stylesheet" href="css/plugins/graph-modal.min.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="favicon.ico">
   <script defer src="js/plugins/choices.min.js"></script>
   <script defer src="js/plugins/swiper-bundle.min.js"></script>
   <script defer src="js/plugins/tippy-core.js"></script>
@@ -716,9 +717,9 @@
             <label class="feedback-form__label ">
                     <input class="feedback-form__input " type="text" name="name" placeholder="Как вас зовут?"  data-validate-field="name">
                 </label>
-            <label class="feedback-form__label ">
-                    <input class="feedback-form__input " type="text" name="phone " placeholder="Ваш телефон"  data-validate-field="tel">
-                </label>
+            <label class="feedback-form__label">
+                    <input class="feedback-form__input" type="text" id="cal-phone" name="phone" placeholder="Ваш телефон"  data-validate-field="tel">
+            </label>
             <label class="feedback-form__label ">
                     <input class="feedback-form__input " type="email" name="email " placeholder="Ваш e-mail"  data-validate-field="mail">
                 </label>
@@ -808,6 +809,11 @@
       </div>
     </div>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="./js/jquery.maskedinput.min.js"></script>
 </body>
 
 </html>

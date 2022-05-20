@@ -2148,7 +2148,8 @@ img {
   opacity: 0;
 }
 .feedback-form__label {
-  display: block;
+  display: flex;
+  flex-direction: column-reverse;
   font-size: 14px;
   line-height: 19px;
   position: relative;
@@ -2183,10 +2184,10 @@ img {
 }
 
 .error-massage {
-  position: absolute;
-  top: -2px;
-  left: 70%;
-  color: red;
+  margin-bottom: 6px;
+  padding: 0 18px;
+  font-size: 12px;
+  color: #ff6972;
 }
 
 .feedback-form__chekbox + span {
